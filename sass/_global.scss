@@ -1,0 +1,49 @@
+/* Reset default margin and padding */
+* {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+#home {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  
+}
+
+/* Set full height for sections */
+section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+/* Style footer */
+footer {
+  background-color: #ffffff;
+  color: #fff;
+  padding: 10px 0;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+  bottom: 0;
+}
+
+/* Style content */
+h1,
+h2,
+p {
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}

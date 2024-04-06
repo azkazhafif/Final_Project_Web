@@ -1,0 +1,28 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border-bottom: 1px solid #437fc7;
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+.logo img {
+  height: 20px;
+  width: auto;
+}
+
+.navbar-links {
+  margin-right: 10px; /* Atur jarak dari kanan agar link tidak terlalu dekat dengan tepi */
+}
+
+.navbar .navbar-links a {
+  color: #0073ff;
+  font-size: 20px;
+  margin: 0 20px;
+  text-decoration: none;
+}
