@@ -10,7 +10,25 @@
   justify-content: center;
   align-items: flex-start;
   flex-wrap: wrap;
-  
+  background-image: url(/assets/images/bg1.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  margin-bottom: 10%;
+}
+
+/*Pilih Paketmu*/
+.pilih-paket {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 300px;
+}
+.pilih-paket h5,
+.pilih-paket h1 {
+  margin: 0;
 }
 
 /* Set full height for sections */
@@ -24,13 +42,23 @@ section {
 
 /* Style footer */
 footer {
-  background-color: #ffffff;
-  color: #fff;
+  // color: #fff;
   padding: 10px 0;
   position: fixed;
   text-align: center;
   width: 100%;
   bottom: 0;
+
+  background-color: #437fc7;
+  opacity: 0;
+  transition: opacity 0.5s ease;  
+}
+.footer.p{
+  background-color: #437fc7 !important;
+}
+
+footer.visible{
+opacity: 1;
 }
 
 /* Style content */
